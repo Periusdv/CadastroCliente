@@ -89,7 +89,7 @@ jobs:
         # Roda a aplicação a tela 1 do Xvfb
         DISPLAY: :1
       #run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=osmarbraz_cadastrocliente_desktop5_base #Default do Sonarcloud
-      run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Periusdv_CadastroCliente org.jacoco:jacoco-maven-plugin:prepare-agent -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
+      run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Periusdv_CadastroCliente -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
     # Desliga o Xvfb
     - name: Desliga Xvfb
       run: killall Xvfb  
