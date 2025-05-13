@@ -40,7 +40,7 @@
     </dependencies>
     
     <properties>        
-        <sonar.organization>Periusdv</sonar.organization>
+        <sonar.organization>periusdv</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.coverage.exclusions>**/*Principal.*,dao.SQLiteDadosBanco,dao.cliente.SQLiteClienteMetaDados</sonar.coverage.exclusions> 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
